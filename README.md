@@ -48,10 +48,10 @@ humidity, and wind speed. The results update on the page without reloading.
 
 Demo video is attached in the Canvas return box.
 
-**Timestamps**	
+**Timestamps**  
 00:00 – Intro  
-00:05 - Project overview  
-00:39 – Demo: Fetching live weather data 
+00:05 – Project overview  
+00:39 – Demo: Fetching live weather data  
 01:00 – Demo: Error handling  
 01:06 – Demo: Adjusting for narrower screens  
 01:23 – Main code walkthrough  
