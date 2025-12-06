@@ -56,3 +56,16 @@ Demo video is attached in the Canvas return box.
 01:06 – Demo: Adjusting for narrower screens  
 01:23 – Main code walkthrough  
 02:29 – Conclusion
+
+## Self-Assessment
+
+| Category                               | Score       | Notes                                                                                                   |
+|------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------|
+| **1. Core Functionality & Usability**    | **10/10**   | Live app works reliably; user can search any city, see results instantly, retry without reload. Handles invalid input with clear messages. |
+| **2. API Integration & Data Handling**   | **8/8**     | Correct endpoint + API key use, clean Fetch request, relevant fields extracted (temp, humidity, wind, icon). Solid error handling and no unnecessary calls. |
+| **3. Front-End Layout & Interaction**    | **5/5**     | Clear layout with separated search/results, dynamic updates, loading indicator, responsive design, consistent visuals. |
+| **4. Code Quality & Architecture**       | **5/5**     | Organized files, meaningful naming, small focused functions, defensive checks, readable flow.            |
+| **5. Documentation**                     | **2/2**     | README includes live link, setup info, API details, and reflection on learning + limitations.            |
+| **6. Demo Video & Git Portfolio**        | **5/5**     | Video shows live app, flows, code overview, clear timestamps; repo is clean, public, and well-structured. |
+
+**Total: 35/35**
