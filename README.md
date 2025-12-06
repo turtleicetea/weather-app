@@ -68,3 +68,5 @@ Demo video is attached in the Canvas return box.
 | **6. Demo Video & Git Portfolio**        | **5/5**     | Video demonstrates app and flows, main code overview. Timestamps in README, repo is well-organized and public. |
 
 **Total: 35/35**
+
+- To improve the app I could place more effort into styling and add a multi-day forecast.
