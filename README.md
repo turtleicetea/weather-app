@@ -5,7 +5,7 @@ Live app: https://turtleicetea.github.io/weather-app/
 ## Description
 
 A weather web app that uses the OpenWeatherMap API.  
-You can type a city name and get the current temperature, conditions,  
+You can type a city name and get the current temperature, other conditions,  
 humidity, and wind speed. The results update on the page without reloading.
 
 ## Features
@@ -35,14 +35,13 @@ humidity, and wind speed. The results update on the page without reloading.
 
 ## What I Learned
 
-- How to call a live REST API using fetch()
-- How to work with JSON data
-- How to update the page dynamically with JavaScript
-- How to show loading and error states for a smoother user experience
-- Basic responsive layout and simple UI design
+- How to use a live REST API using fetch()
+- How to update pages dynamically with JavaScript
+- How to display loading and error messages
+- Building a responsive layout with clean design
 
-## Known Limitations
-- The API key is visible in the front-end code (in real projects it should be hidden on a server).
+## Limitations
+- The API key is visible in the front-end code. In real projects it should be hidden.
 
 ## Demo Video
 
@@ -61,11 +60,11 @@ Demo video is attached in the Canvas return box.
 
 | Category                               | Score       | Notes                                                                                                   |
 |------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------|
-| **1. Core Functionality & Usability**    | **10/10**   | Live app works reliably; user can search any city, see results instantly, retry without reload. Handles invalid input with clear messages. |
-| **2. API Integration & Data Handling**   | **8/8**     | Correct endpoint + API key use, clean Fetch request, relevant fields extracted (temp, humidity, wind, icon). Solid error handling and no unnecessary calls. |
-| **3. Front-End Layout & Interaction**    | **5/5**     | Clear layout with separated search/results, dynamic updates, loading indicator, responsive design, consistent visuals. |
-| **4. Code Quality & Architecture**       | **5/5**     | Organized files, meaningful naming, small focused functions, defensive checks, readable flow.            |
-| **5. Documentation**                     | **2/2**     | README includes live link, setup info, API details, and reflection on learning + limitations.            |
-| **6. Demo Video & Git Portfolio**        | **5/5**     | Video shows live app, flows, code overview, clear timestamps; repo is clean, public, and well-structured. |
+| **1. Core Functionality & Usability**    | **10/10**   | Live app works, user can search any city, display results, retry without reloading. App responds to invalid input and network issues with clear error messages. |
+| **2. API Integration & Data Handling**   | **8/8**     | Correct endpoint and use of API key, Fetch request, relevant fields extracted, clear error handling. |
+| **3. Front-End Layout & Interaction**    | **5/5**     | Clear layout with separated search and results, loading indicator, dynamic updates, responsive on narrower window. |
+| **4. Code Quality & Architecture**       | **5/5**     | Organized files, meaningful naming, small functions, readable code.            |
+| **5. Documentation**                     | **2/2**     | README includes live link, how to set up, used API details, learning reflection and limitations.            |
+| **6. Demo Video & Git Portfolio**        | **5/5**     | Video demonstrates app and flows, main code overview. Timestamps in README, repo is well-organized and public. |
 
 **Total: 35/35**
