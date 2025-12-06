@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Finder</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Weather Finder</h1>
+    <p>Check the current weather in any city.</p>
+  </header>
+
+  <main class="container">
+
+    <form id="weatherForm" class="search-box">
+      <input
+        id="cityInput"
+        type="text"
+        placeholder="Enter city name..."
+        autocomplete="off"
+      />
+      <button id="searchBtn" type="submit">Search</button>
+    </form>
+
+    <div id="loading" class="loading" style="display: none;">
+      Loading weather...
+    </div>
+
+    <div id="error" class="error"></div>
+
+    <section id="results" class="results"></section>
+
+  </main>
+
+  <footer>
+    <small>Powered by OpenWeatherMap API</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

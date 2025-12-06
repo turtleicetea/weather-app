@@ -1,0 +1,151 @@
+/* Base layout */
+body {
+    font-family: "Inter", sans-serif;
+    background: #f0f4ff;         /* soft light-blue background */
+    color: #111827;              /* dark gray text */
+    margin: 0;
+  }
+  
+  /* Header section */
+  header {
+    text-align: center;
+    padding: 22px 16px;
+    background: #2c5fb8;         /* blue header bar */
+    color: white;
+  }
+  
+  header h1 {
+    margin-bottom: 4px;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 300;
+  }
+  
+  /* Main container */
+  .container {
+    max-width: 520px;
+    margin: 24px auto 40px;
+    padding: 0 16px;
+  }
+  
+  /* Search box area */
+  .search-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #cbd5f5;
+    background: white;
+    font-size: 0.95rem;
+  }
+  
+  .search-box input:focus {
+    outline: none;
+    border-color: #2c5fb8;
+  }
+  
+  .search-box button {
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: none;
+    background: #2c5fb8;
+    color: white;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .search-box button:hover {
+    background: #234a8c;
+  }
+  
+  /* Status messages */
+  .loading {
+    font-style: italic;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+  }
+  
+  .error {
+    color: #b91c1c;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  /* Weather results */
+  .results {
+    margin-top: 8px;
+  }
+  
+  /* Weather info card */
+  .weather-card {
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid #d1d5db;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  
+  .weather-card img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  /* Weather text styles */
+  .weather-city {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .weather-temp {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 4px 0;
+  }
+  
+  .weather-desc {
+    font-size: 0.95rem;
+    color: #4b5563;
+    text-transform: capitalize;
+  }
+  
+  .weather-extra {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #6b7280;
+    padding: 20px;
+    border-top: 1px solid #d1d5db;
+  }
+  
+  /* Basic responsiveness */
+  @media (max-width: 500px) {
+    .search-box {
+      flex-direction: column;
+    }
+  
+    .search-box button {
+      width: 100%;
+    }
+  
+    .weather-card {
+      align-items: flex-start;
+    }
+  }
